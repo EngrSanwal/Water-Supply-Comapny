@@ -56,13 +56,13 @@ const Topsecond = () => {
 
             </div>
 
-            <div className="button-group" style={{ display: "flex" }}>
+            <div className="button-group" style={{ display: "flex"}}>
 
-              <button className="btn btn-primary me-3">
+              <button className="btn btn-primary me-3" style={{margin:"1rem" }}>
                 {t("order")}
               </button>
 
-              <button className="btn btn-outline-secondary">
+              <button className="btn btn-outline-secondary" style={{margin:"1rem"}}>
                 {t("support")}
               </button>
 
