@@ -22,8 +22,6 @@ const Navbarr = () => {
 
   const locale = useLocale();
 
-  const switchLocale = locale === "en" ? "ar" : "en";
-
   const activeStyle = {
     color: "#007bff",
     textDecoration: "underline",
@@ -37,7 +35,7 @@ const Navbarr = () => {
       <Container fluid>
 
         <Navbar.Brand href="#">
-          WaterMechRevo
+          ArabZone
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -113,14 +111,6 @@ const Navbarr = () => {
               }
             >
               {t("contact")}
-            </Nav.Link>
-
-            <Nav.Link
-              as={Link}
-              href={`/${switchLocale}`}
-              className="fw-bold text-primary"
-            >
-              {t("language")}
             </Nav.Link>
 
           </Nav>

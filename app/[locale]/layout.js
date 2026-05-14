@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 import Navbarr from "@/components/Navbarr";
 import Footer from "@/components/Footer";
+import LanguageSwitcher from "@/components/LanguageSwitcher";
 
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
@@ -44,9 +45,11 @@ export default async function RootLayout({
       lang={locale}
       dir={locale === "ar" ? "rtl" : "ltr"}
       className={`${geistSans.variable} ${geistMono.variable}`}
+      data-scroll-behavior="smooth"
     >
       <body>
         <NextIntlClientProvider messages={messages}>
+          <LanguageSwitcher/>
           <Navbarr />
 
           {children}

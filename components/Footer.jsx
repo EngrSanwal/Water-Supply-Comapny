@@ -9,8 +9,8 @@ import Link from "next/link";
 import {
   FaFacebook,
   FaInstagram,
-  FaYoutube,
-  FaLinkedin,
+  FaSnapchat,
+  FaTiktok,
   FaWhatsapp,
   FaArrowRight,
   FaPhoneAlt,
@@ -61,7 +61,7 @@ const Footer = () => {
                 href="https://youtube.com/playlist?list=PL7RXOAih98ALpaFawFbPY_jzfXeHY9wSn&si=aGtMxJgCjDXmga9Y"
                 style={{ color: "white", textDecoration: "none" }}
               >
-                <FaYoutube size={40} />
+                <FaTiktok size={40} />
               </a>
             </h1>
 
@@ -70,7 +70,7 @@ const Footer = () => {
                 href="https://linkedin.com"
                 style={{ color: "white", textDecoration: "none" }}
               >
-                <FaLinkedin size={40} />
+                <FaSnapchat size={40} />
               </a>
             </h1>
 

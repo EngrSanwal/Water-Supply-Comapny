@@ -22,9 +22,9 @@
   },
 
   "bgfix": {
-    "title": "Why CompanyName",
-    "desc": "CompanyName water desalination is the leading supplier of un-bottled potable water for people and businesses in Saudi Arabia.",
-    "btn": "Read More"
+    "title": "Why ArabZone",
+    "desc": "ArabZone water desalination is the leading supplier of un-bottled potable water for people and businesses in Saudi Arabia.",
+    "btn": "Contact Us"
   },
 
   "services": {
@@ -71,4 +71,332 @@
     "card4title": "Professional Drivers",
     "card4desc": "Background verified & trained"
   }
+  ,
+"aboutpage": {
+
+  "heroTitle": "About",
+  "heroHighlight": "Us",
+  "heroDesc": "Your Trusted Partner in Water Supply Services Since 2020",
+
+  "storyTitle": "Our",
+  "storyHighlight": "Story",
+
+  "storyDesc1": "Founded in 2020, ArabZone started with a simple mission: to revolutionize the delivery industry by combining speed, reliability, and affordability. What began as a small team of 5 passionate drivers has now grown into a nationwide network of over 200+ professional drivers serving thousands of satisfied customers daily.",
+
+  "storyDesc2": "We believe that every package tells a story, and we treat each delivery with the same care and attention as if it were our own. Our commitment to excellence has made us the preferred choice for businesses and individuals alike.",
+
+  "feature1": "100% Customer Satisfaction Rate",
+  "feature2": "24/7 Real-time Order Tracking",
+  "feature3": "Money-back Guarantee on Delays",
+
+  "stat1": "On-time Delivery",
+  "stat2": "Packages Delivered",
+  "stat3": "Expert Drivers",
+  "stat4": "Areas of Hail Covered",
+
+  "mission": "Our Mission",
+
+  "missionDesc": "To provide seamless, fast, and reliable delivery solutions that empower businesses and bring smiles to customers' faces. We strive to make logistics simple, transparent, and accessible for everyone.",
+
+  "vision": "Our Vision",
+
+  "visionDesc": "To become the most trusted and innovative logistics company, setting new standards in delivery speed, customer service, and technological excellence across the nation.",
+
+  "whyTitle": "Why Choose",
+  "whyHighlight": "Us?",
+  "whyDesc": "Discover what makes us different from the rest",
+
+  "card1title": "Trusted Company",
+  "card1desc": "Trusted by thousands of clients",
+
+  "card2title": "Affordable Price",
+  "card2desc": "Best rates with no hidden charges",
+
+  "card3title": "Fast Shipping",
+  "card3desc": "Same-day & express delivery options",
+
+  "card4title": "Professional Drivers",
+  "card4desc": "Background verified & trained",
+
+  "ctaTitle": "Ready to experience the best delivery service?",
+
+  "ctaDesc": "Join thousands of satisfied customers who trust us with their deliveries",
+
+  "ctaBtn": "Get Started Today"
+}
+,
+"productsPage": {
+  "hero": {
+    "title": "Choose Your",
+    "highlight": "Water Package",
+    "desc": "Select from our range of tailored water supply plans for sweet, construction & domestic needs",
+    "badge1": "Free Delivery*",
+    "badge2": "Subscription Available",
+    "badge3": "Best Price Guarantee"
+  },
+
+  "contact": {
+    "title": "Need Custom Quantity?",
+    "desc": "Call us for bulk orders & special requirements"
+  },
+
+  "tabs": {
+    "sweet": "Sweet Water",
+    "sweetdesc": "For drinking & cooking",
+
+    "construction": "Construction Water",
+    "constructiondesc": "For building projects",
+
+    "domestic": "Domestic Water",
+    "domesticdesc": "For household use"
+  },
+
+  "sweet": {
+    "basic": "Basic",
+    "family": "Family",
+    "business": "Business"
+  },
+
+  "construction": {
+    "small": "Small Site",
+    "medium": "Medium Site",
+    "large": "Large Site"
+  },
+
+  "domestic": {
+    "starter": "Starter",
+    "plus": "Plus",
+    "premium": "Premium"
+  },
+
+  "delivery": {
+    "weekly": "Weekly",
+    "biweekly": "Bi-weekly",
+    "daily": "Daily",
+    "asneeded": "As needed",
+    "multiple": "Multiple daily",
+    "twice": "Twice weekly"
+  },
+
+  "features": {
+    "ro": "RO purified water",
+    "freecan": "Free can",
+    "basicsupport": "Basic support",
+
+    "premium": "Premium quality",
+    "twocans": "2 free cans",
+    "priority": "Priority support",
+
+    "bulk": "Bulk discount",
+    "delivery247": "24/7 delivery",
+    "dedicated": "Dedicated truck",
+
+    "sameday": "Same day delivery",
+    "quality": "Quality certified",
+    "fastservice": "Fast service",
+
+    "bulkrates": "Bulk rates",
+    "prioritydispatch": "Priority dispatch",
+    "availability": "24/7 availability",
+
+    "fleet": "Fleet of tankers",
+    "storage": "Site storage",
+    "bestprice": "Best price guarantee",
+
+    "clean": "Clean water",
+    "regular": "Regular service",
+    "affordable": "Affordable",
+
+    "prioritydelivery": "Priority delivery",
+    "cleaning": "Tank cleaning",
+    "emergency": "Emergency support",
+
+    "unlimited": "Unlimited supply",
+    "support247": "24/7 support",
+    "premiumquality": "Premium quality"
+  },
+  "heroTitle": "Choose Your",
+"heroHighlight": "Water Package",
+"heroDesc": "Select from our range of tailored water supply plans for sweet, construction & domestic needs",
+
+"badge1": "Free Delivery*",
+"badge2": "Subscription Available",
+"badge3": "Best Price Guarantee",
+
+"customTitle": "Need Custom Quantity?",
+"customDesc": "Call us for bulk orders & special requirements",
+
+"sweetWater": "Sweet Water",
+"sweetDesc": "For drinking & cooking",
+
+"constructionWater": "Construction Water",
+"constructionDesc": "For building projects",
+
+"domesticWater": "Domestic Water",
+"domesticDesc": "For household use",
+
+"sweetBasic": "Basic",
+"sweetFamily": "Family",
+"sweetBusiness": "Business",
+
+"constructionSmall": "Small Site",
+"constructionMedium": "Medium Site",
+"constructionLarge": "Large Site",
+
+"domesticStarter": "Starter",
+"domesticPlus": "Plus",
+"domesticPremium": "Premium",
+
+"weekly": "Weekly",
+"biweekly": "Bi-weekly",
+"daily": "Daily",
+"asneeded": "As needed",
+"multipledaily": "Multiple daily",
+"twiceweekly": "Twice weekly",
+
+"sweetFeature1": "RO purified water",
+"sweetFeature2": "Free can",
+"sweetFeature3": "Basic support",
+
+"sweetFeature4": "Premium quality",
+"sweetFeature5": "2 free cans",
+"sweetFeature6": "Priority support",
+
+"sweetFeature7": "Bulk discount",
+"sweetFeature8": "24/7 delivery",
+"sweetFeature9": "Dedicated truck",
+
+"constructionFeature1": "Same day delivery",
+"constructionFeature2": "Quality certified",
+"constructionFeature3": "Fast service",
+
+"constructionFeature4": "Bulk rates",
+"constructionFeature5": "Priority dispatch",
+"constructionFeature6": "24/7 availability",
+
+"constructionFeature7": "Fleet of tankers",
+"constructionFeature8": "Site storage",
+"constructionFeature9": "Best price guarantee",
+
+"domesticFeature1": "Clean water",
+"domesticFeature2": "Regular service",
+"domesticFeature3": "Affordable",
+
+"domesticFeature4": "Priority delivery",
+"domesticFeature5": "Tank cleaning",
+"domesticFeature6": "Emergency support",
+
+"domesticFeature7": "Unlimited supply",
+"domesticFeature8": "24/7 support",
+"domesticFeature9": "Premium quality",
+
+"popular": "Most Popular",
+
+"delivery": "Delivery",
+
+"order": "Order Now",
+
+"howTitle": "How",
+"howHighlight": "It Works",
+
+"step1title": "Choose Package",
+"step1desc": "Select water type & plan",
+
+"step2title": "Place Order",
+"step2desc": "Call or WhatsApp us",
+
+"step3title": "Schedule Delivery",
+"step3desc": "Choose date & time",
+
+"step4title": "Get Water",
+"step4desc": "Fresh water at your door",
+
+"compareTitle": "Compare",
+"compareHighlight": "Water Types",
+
+"feature": "Features",
+
+"bestfor": "Best For",
+"bestfor1": "Drinking/Cooking",
+"bestfor2": "Concrete Mixing",
+"bestfor3": "Household Chores",
+
+"quality": "Quality Standard",
+"quality1": "RO + UV Filtered",
+"quality2": "Industrial Grade",
+"quality3": "Municipal Grade",
+
+"ph": "pH Level",
+
+"minorder": "Min Order",
+
+"deliverytime": "Delivery Time",
+
+"sameday": "Same Day",
+
+"faqTitle": "Frequently Asked",
+"faqHighlight": "Questions",
+
+"faq1q": "How do I place an order?",
+"faq1a": "Call us directly or WhatsApp your requirement. We'll confirm delivery schedule.",
+
+"faq2q": "Is there free delivery?",
+"faq2a": "Yes, free delivery on all orders above 1000 liters.",
+
+"faq3q": "Can I get emergency delivery?",
+"faq3a": "24/7 emergency delivery available with minimal extra charges.",
+
+"faq4q": "How do you ensure water quality?",
+"faq4a": "Regular lab testing and quality checks for all water types."
+},
+"facilitiesPage": {
+
+  "heroTitle": "Water Supply Services",
+
+  "heroDesc": "Clean & reliable water for every need",
+
+  "sweetTitle": "Sweet Water",
+
+  "sweetDesc": "Pure & filtered drinking water for daily use",
+
+  "constructionTitle": "Construction Water",
+
+  "constructionDesc": "Heavy-duty water for construction sites",
+
+  "domesticTitle": "Domestic Water",
+
+  "domesticDesc": "Affordable water for households & colonies",
+
+  "orderBtn": "Order Now",
+
+  "supportTitle": "Customer Support",
+
+  "supportDesc": "Complaints & Issues",
+
+  "guide": "Registration Guide",
+
+  "ceoTitle": "CEO Direct Contact",
+
+  "ceoDesc": "If support doesn't resolve your issue",
+
+  "footerText": "24/7 Emergency Water Supply • Same Day Delivery • Free Quality Check"
+},
+"contactPage": {
+
+  "title": "Contact Support",
+
+  "subtitle": "Contact the below helplines for Support",
+
+  "complainTitle": "Complains & Issues",
+
+  "complainDesc": "For any complain, or if you have order issue then contact in below contact",
+
+  "guideTitle": "Order Guide",
+
+  "guideDesc": "Contact us for order placement, or you can also fill the given form directly",
+
+  "callBtn": "Call Now",
+
+  "emailText": "You can also send us an email for your order:"
+}
 }
