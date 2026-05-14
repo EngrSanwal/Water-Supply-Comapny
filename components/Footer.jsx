@@ -1,4 +1,5 @@
 "use client";
+
 import Image from "next/image";
 import React from "react";
 import { Container } from "react-bootstrap";
@@ -17,7 +18,12 @@ import {
 
 import { MdEmail } from "react-icons/md";
 
+import { useTranslations } from "next-intl";
+
 const Footer = () => {
+
+  const t = useTranslations("footer");
+
   return (
     <>
       <Container fluid style={{ backgroundColor: "black", color: "white" }}>
@@ -26,7 +32,7 @@ const Footer = () => {
 
           <div className="col-md-4 d-flex align-items-center">
             <h4 className="d-flex align-items-center gap-2 m-0">
-              Connect with Us Through <FaArrowRight size={35} />
+              {t("connect")} <FaArrowRight size={35} />
             </h4>
           </div>
 
@@ -98,7 +104,9 @@ const Footer = () => {
           </div>
 
           <div className="col-md-6">
-            <h4 style={{ margin: "2rem 0 2rem 0" }}>Contact Us</h4>
+            <h4 style={{ margin: "2rem 0 2rem 0" }}>
+              {t("contact")}
+            </h4>
 
             <h5 className="d-flex align-items-center">
               <FaPhoneAlt className="me-2" />

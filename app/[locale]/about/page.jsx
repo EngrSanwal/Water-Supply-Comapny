@@ -142,7 +142,7 @@ const page = () => {
           <p className="text-center text-muted mb-5">Discover what makes us different from the rest</p>
           <Row className="g-4">
             {[
-              { icon: FaRegRegistered, title: 'Registered Company', desc: 'Fully licensed & government approved', color: '#4CAF50' },
+              { icon: FaShieldAlt, title: 'Trusted Company', desc: 'Trusted by thousands of clients', color: '#4CAF50' },
               { icon: FaDollarSign, title: 'Affordable Price', desc: 'Best rates with no hidden charges', color: '#FF9800' },
               { icon: FaShippingFast, title: 'Fast Shipping', desc: 'Same-day & express delivery options', color: '#2196F3' },
               { icon: FaIdCard, title: 'Professional Drivers', desc: 'Background verified & trained', color: '#9C27B0' },

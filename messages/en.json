@@ -1,0 +1,74 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About Us",
+    "products": "Products & Services",
+    "facilities": "Facilities",
+    "contact": "Contact Us",
+    "language": "العربية"
+  },
+
+  "footer": {
+    "connect": "Connect with Us Through",
+    "contact": "Contact Us"
+  },
+
+  "carousel": {
+    "slide1": "Pure Water Supply",
+    "slide2": "Reliable Services",
+    "slide3": "Trusted Company",
+    "slide4": "Fast Delivery",
+    "slide5": "Best Water Solutions"
+  },
+
+  "bgfix": {
+    "title": "Why CompanyName",
+    "desc": "CompanyName water desalination is the leading supplier of un-bottled potable water for people and businesses in Saudi Arabia.",
+    "btn": "Read More"
+  },
+
+  "services": {
+  "title": "Your Trusted Partner for Clean & Reliable Water Supply",
+  "desc": "Providing premium quality water solutions for homes, business, and construction sites.",
+
+  "card1title": "Sweet Water",
+  "card1desc": "Pure and hygienic sweet water supply service for homes, offices, schools, and commercial use.",
+
+  "card2title": "Construction Water",
+  "card2desc": "Reliable water tanker supply for construction sites, buildings, factories, and industrial projects.",
+
+  "card3title": "Domestic Water",
+  "card3desc": "Water supply solutions for residential and commercial daily life usage with fast delivery service.",
+
+  "btn": "Order Now"
+},
+
+  "topsecond": {
+    "badge": "Hail's Trusted Water Provider",
+    "title1": "Pure Water.",
+    "title2": "Sustainable Flow.",
+    "desc": "Delivering reliable, high-quality water supply to Hail's families, farms, and industries—24/7, 365 days a year.",
+    "feature1": "100% Localized Network Coverage",
+    "feature2": "Zero Rain Dependency - Guaranteed Reserves",
+    "feature3": "24hr Emergency Leak Response",
+    "order": "Order Now",
+    "support": "Emergency Support"
+  },
+
+  "whychoose": {
+    "title": "Why Choose Us?",
+    "desc": "Discover what makes us different from the rest",
+
+    "card1title": "Trusted Company",
+    "card1desc": "Fully Trusted by thousands of clients",
+
+    "card2title": "Affordable Price",
+    "card2desc": "Best rates with no hidden charges",
+
+    "card3title": "Fast Shipping",
+    "card3desc": "Same-day & express delivery options",
+
+    "card4title": "Professional Drivers",
+    "card4desc": "Background verified & trained"
+  }
+}
