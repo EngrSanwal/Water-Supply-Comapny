@@ -110,7 +110,7 @@ const Footer = () => {
 
             <h5 className="d-flex align-items-center">
               <FaPhoneAlt className="me-2" />
-              0325-6992358, 0310-7189909
+               0581845447, 0574960649 
             </h5>
 
             <h5

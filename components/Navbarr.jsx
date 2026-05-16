@@ -3,8 +3,9 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-
+import logo from "@/public/assets/logo.jpeg"
 import Link from "next/link";
+import Image from "next/image";
 
 import { PiWhatsappLogoDuotone } from "react-icons/pi";
 
@@ -34,9 +35,16 @@ const Navbarr = () => {
 
       <Container fluid>
 
-        <Navbar.Brand href="#">
-          ArabZone
-        </Navbar.Brand>
+       <Navbar.Brand href="#">
+  <Image
+    src={logo}
+    alt="ArabZone Logo"
+    width={140}
+    height={40}
+    priority
+    style={{ objectFit: "contain" }}
+  />
+</Navbar.Brand>
 
         <Navbar.Toggle aria-controls="navbarScroll" />
 
@@ -115,9 +123,16 @@ const Navbarr = () => {
 
           </Nav>
 
-          <PiWhatsappLogoDuotone
-            style={{ width: "30px", height: "60px" }}
-          />
+        <a
+  href="https://wa.me/966574960649"
+  target="_blank"
+  rel="noopener noreferrer"
+  style={{ color: "inherit", textDecoration: "none" }}
+>
+  <PiWhatsappLogoDuotone
+    style={{ width: "30px", height: "60px", cursor: "pointer" }}
+  />
+</a>
 
         </Navbar.Collapse>
 

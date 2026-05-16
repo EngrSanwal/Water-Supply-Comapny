@@ -75,7 +75,7 @@ const Page = () => {
                 <br />
 
                 <span style={{ fontWeight: "bold" }}>
-                  0310-7189909
+                  0581845447
                 </span>
 
               </Card.Text>
@@ -83,7 +83,7 @@ const Page = () => {
               <Card.Text style={{ textAlign: "center" }}>
 
                 <a
-                  href="tel:+923107189909"
+                  href="tel:+966581845447"
                   className="btn btn-primary fw-bold px-4 py-2 rounded-3"
                 >
                   📞 {t("callBtn")}
@@ -132,7 +132,7 @@ const Page = () => {
                 <br />
 
                 <span style={{ fontWeight: "bold" }}>
-                  0325-6992358
+                  0574960649
                 </span>
 
               </Card.Text>
@@ -140,7 +140,7 @@ const Page = () => {
               <Card.Text style={{ textAlign: "center" }}>
 
                 <a
-                  href="tel:+923256992358"
+                  href="tel:+966574960649"
                   className="btn btn-primary fw-bold px-4 py-2 rounded-3"
                 >
                   📞 {t("callBtn")}

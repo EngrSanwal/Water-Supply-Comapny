@@ -141,7 +141,7 @@ const locale = params.locale;
             </p>
 
             <h5 className="fw-bold">
-              📞 0310-7189909
+              📞 0581845447
             </h5>
 
             <p className="mb-0 mt-3">
@@ -149,7 +149,7 @@ const locale = params.locale;
             </p>
 
             <h5 className="fw-bold">
-              📞 0325-6992358
+              📞 0574960649
             </h5>
 
           </Card>
