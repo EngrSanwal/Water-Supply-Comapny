@@ -399,4 +399,35 @@
 
   "emailText": "You can also send us an email for your order:"
 }
+,
+"orderPage": {
+  "title": "🚰 Water Supply Order Form",
+  "subtitle": "Sweet Water • Construction Water • Domestic Water",
+
+  "fullname": "Full Name",
+  "email": "Email",
+  "phone": "Phone Number",
+  "address": "Delivery Address",
+
+  "waterType": "Water Type",
+  "selectType": "Select Type",
+
+  "sweet": "Sweet Water",
+  "construction": "Construction Water",
+  "domestic": "Domestic Water",
+
+  "quantity": "Quantity (Liters)",
+  "deliveryDate": "Delivery Date",
+
+  "message": "Additional Message",
+
+  "submit": "Place Order",
+  "submitting": "Submitting...",
+
+  "toastTitle": "Order Status",
+  "success": "✅ Order placed successfully!",
+
+  "error": "Failed to place order. Try again.",
+  "serverError": "Server error. Please try later."
+}
 }

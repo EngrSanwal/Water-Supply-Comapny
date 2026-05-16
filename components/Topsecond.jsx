@@ -4,12 +4,15 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import Image from 'next/image';
 import companyimg from '@/public/assets/organizationpic.png';
-
+import Emailcontact from './Emilcontact';
+import Link from 'next/link';
 import { FaCheckCircle, FaTint, FaClock } from 'react-icons/fa';
-
+import { useParams } from "next/navigation";
 import { useTranslations } from "next-intl";
 
 const Topsecond = () => {
+  const params = useParams();
+  const locale = params.locale;
 
   const t = useTranslations("topsecond");
 
@@ -58,10 +61,11 @@ const Topsecond = () => {
 
             <div className="button-group" style={{ display: "flex"}}>
 
-              <button className="btn btn-primary me-3" style={{margin:"1rem" }}>
-                {t("order")}
-              </button>
-
+               <Link href={`/${locale}/order`}>
+      <button className="btn btn-primary me-3" style={{ margin: "1rem" }}>
+        Order Now
+      </button>
+    </Link>
               <button className="btn btn-outline-secondary" style={{margin:"1rem"}}>
                 {t("support")}
               </button>
