@@ -181,10 +181,10 @@ const Page = () => {
           <h5>
 
             <a
-              href="mailto:ceo.company@gmail.com"
+              href="mailto:arabzonewater@gmail.com"
               style={{ textDecoration: "none" }}
             >
-              ceo.company@gmail.com
+              arabzonewater@gmail.com
             </a>
 
           </h5>

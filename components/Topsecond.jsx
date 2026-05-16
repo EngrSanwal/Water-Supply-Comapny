@@ -4,7 +4,6 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import Image from 'next/image';
 import companyimg from '@/public/assets/organizationpic.png';
-import Emailcontact from './Emilcontact';
 import Link from 'next/link';
 import { FaCheckCircle, FaTint, FaClock } from 'react-icons/fa';
 import { useParams } from "next/navigation";
@@ -61,14 +60,19 @@ const Topsecond = () => {
 
             <div className="button-group" style={{ display: "flex"}}>
 
-               <Link href={`/${locale}/order`}>
-      <button className="btn btn-primary me-3" style={{ margin: "1rem" }}>
-        Order Now
-      </button>
-    </Link>
-              <button className="btn btn-outline-secondary" style={{margin:"1rem"}}>
-                {t("support")}
-              </button>
+              {/* ORDER BUTTON (UNCHANGED) */}
+              <Link href={`/${locale}/order`}>
+                <button className="btn btn-primary me-3" style={{ margin: "1rem" }}>
+                  Order Now
+                </button>
+              </Link>
+
+              {/* ✅ SUPPORT BUTTON FIXED TO CONTACT PAGE */}
+              <Link href={`/${locale}/contact`}>
+                <button className="btn btn-outline-secondary" style={{ margin: "1rem" }}>
+                  {t("support")}
+                </button>
+              </Link>
 
             </div>
 

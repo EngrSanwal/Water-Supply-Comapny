@@ -1,7 +1,8 @@
 "use client";
 
 import React, { useState } from 'react';
-
+import { useParams } from "next/navigation";
+import Link from "next/link";
 import { Container, Row, Col } from 'react-bootstrap';
 
 import {
@@ -20,6 +21,8 @@ import { useTranslations } from "next-intl";
 const page = () => {
 
   const t = useTranslations("productsPage");
+   const params = useParams();
+  const locale = params.locale;
 
   const [activeTab, setActiveTab] = useState('sweet');
 
@@ -313,17 +316,16 @@ const page = () => {
 
                   </ul>
 
-                  <button
-                    className="order-btn"
-                    style={{
-                      backgroundColor: waterTypes.find(
-                        t => t.id === activeTab
-                      ).color
-                    }}
-                  >
-                    {t("order")} →
-                  </button>
-
+                  <Link href={`/${locale}/order`}>
+                    <button
+                      className="order-btn"
+                      style={{
+                        backgroundColor: waterTypes.find(t => t.id === activeTab).color
+                      }}
+                    >
+                      {t("order")} →
+                    </button>
+                  </Link>
                 </div>
 
               </Col>
@@ -478,9 +480,9 @@ const page = () => {
 
                 <tr>
                   <td>{t("deliverytime")}</td>
-                  <td>2-4 Hours</td>
-                  <td>{t("sameday")}</td>
-                  <td>4-6 Hours</td>
+                  <td>2 Hours</td>
+                  <td>2-3 Hours</td>
+                  <td>2-3 Hours</td>
                 </tr>
 
               </tbody>

@@ -22,10 +22,14 @@ import {
 } from 'react-icons/fa';
 
 import { useTranslations } from "next-intl";
+import Link from "next/link";
+import { useParams } from "next/navigation";
 
 const page = () => {
 
   const t = useTranslations("aboutpage");
+   const params = useParams();
+  const locale = params.locale;
 
   return (
 
@@ -422,15 +426,17 @@ const page = () => {
                   {t("ctaDesc")}
                 </p>
 
-                <button
-                  className="btn btn-primary btn-lg px-5"
-                  style={{
-                    background: '#e67e22',
-                    border: 'none'
-                  }}
-                >
-                  {t("ctaBtn")}
-                </button>
+                 <Link href={`/${locale}/order`}>
+                  <button
+                    className="btn btn-primary btn-lg px-5"
+                    style={{
+                      background: '#e67e22',
+                      border: 'none'
+                    }}
+                  >
+                    {t("ctaBtn")}
+                  </button>
+                </Link>
 
               </div>
 

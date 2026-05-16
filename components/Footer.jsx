@@ -40,7 +40,7 @@ const Footer = () => {
 
             <h1 style={{ margin: "0.5rem" }}>
               <a
-                href="https://www.facebook.com/share/19faiqTX35/"
+                href="https://www.facebook.com"
                 style={{ color: "white", textDecoration: "none" }}
               >
                 <FaFacebook size={40} />
@@ -49,7 +49,7 @@ const Footer = () => {
 
             <h1 style={{ margin: "0.5rem" }}>
               <a
-                href="https://www.instagram.com/pak_mela?igsh=MWNub3pmMjdraTRvYg=="
+                href="https://www.instagram.com"
                 style={{ color: "white", textDecoration: "none" }}
               >
                 <FaInstagram size={40} />
@@ -58,7 +58,7 @@ const Footer = () => {
 
             <h1 style={{ margin: "0.5rem" }}>
               <a
-                href="https://youtube.com/playlist?list=PL7RXOAih98ALpaFawFbPY_jzfXeHY9wSn&si=aGtMxJgCjDXmga9Y"
+                href="https://youtube.com"
                 style={{ color: "white", textDecoration: "none" }}
               >
                 <FaTiktok size={40} />
@@ -76,7 +76,7 @@ const Footer = () => {
 
             <h1 style={{ margin: "0.5rem" }}>
               <a
-                href="https://chat.whatsapp.com/EvStouxMRpSIMJP8zmzcTu?mode=gi_t"
+                href="https://chat.whatsapp.com"
                 style={{ color: "white", textDecoration: "none" }}
               >
                 <FaWhatsapp size={40} />
@@ -120,10 +120,10 @@ const Footer = () => {
               <MdEmail className="me-2" />
 
               <a
-                href="mailto:ceo.company@gmail.com"
+                href="mailto:arabzonewater@gmail.com"
                 style={{ color: "white", textDecoration: "none" }}
               >
-                ceo.company@gmail.com
+                arabzonewater@gmail.com
               </a>
             </h5>
           </div>

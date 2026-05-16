@@ -10,12 +10,16 @@ import {
   FaPhoneAlt,
   FaEnvelope
 } from "react-icons/fa";
+import Link from "next/link";
+import { useParams } from "next/navigation";
 
 import { useTranslations } from "next-intl";
 
 const page = () => {
 
   const t = useTranslations("facilitiesPage");
+  const params = useParams();
+const locale = params.locale;
 
   const services = [
     {
@@ -100,13 +104,13 @@ const page = () => {
                   {service.price}
                 </h5>
 
-                <a
-                  href="tel:+923107189909"
-                  className="btn btn-primary mt-3 px-4"
-                >
-                  <FaTruck className="me-2" />
-                  {t("orderBtn")}
-                </a>
+                <Link
+  href={`/${locale}/order`}
+  className="btn btn-primary mt-3 px-4"
+>
+  <FaTruck className="me-2" />
+  {t("orderBtn")}
+</Link>
 
               </Card.Body>
 
@@ -168,10 +172,10 @@ const page = () => {
             </p>
 
             <a
-              href="mailto:ceo.pakmela@gmail.com"
+              href="mailto:arabzonewater@gmail.com"
               className="text-white fw-bold fs-5"
             >
-              ceo.@gmail.com
+              arabzonewater@gmail.com
             </a>
 
           </Card>
